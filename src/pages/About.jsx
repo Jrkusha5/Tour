@@ -2,7 +2,7 @@ import Pic4 from '../assets/addis1.jpg'
 import icon1 from '../assets/icons1.png'
 import icon2 from '../assets/icons2.png'
 import icon3 from '../assets/icons3.png'
-import { Link } from "react-router-dom"; // Import Link for navigation
+import { Link } from "react-router-dom"; 
 import { HiArrowNarrowLeft } from "react-icons/hi"; 
 
 function About() {

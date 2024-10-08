@@ -34,7 +34,7 @@ function Home() {
       {/* Attractions Section */}
       <div className="py-16 px-8 md:px-16 text-black">
         <h2 className="text-3xl md:text-4xl font-bold text-center  mb-12 animate-slideInFromLeft">
-          Most-Visit Destinations in Ethiopia
+          Most-Visited Destinations in Ethiopia
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transform rotate-15 transition-transform">
@@ -93,7 +93,7 @@ function Home() {
 
       <div className="py-16 px-8 md:px-16 text-black">
         <h2 className="text-3xl md:text-4xl font-bold  mb-12 animate-slideInFromLeft">
-          Recent Inagurated Parks 
+          Recent Inaugurated Parks 
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transform rotate-15 transition-transform">

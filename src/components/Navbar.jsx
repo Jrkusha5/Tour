@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,14 +12,13 @@ const Navbar = () => {
 
   const handleMenuClick = (name) => {
     setActiveItem(name);
-    setIsOpen(false); // Close the menu after clicking
+    setIsOpen(false); 
   };
 
   const menuItems = [
     { name: "Home", to: "/" },
-    { name: "About Us", to: "/about" }, // Use "to" instead of "href"
+    { name: "About Us", to: "/about" }, 
     
-    // Add more menu items here as needed
   ];
 
   return (
