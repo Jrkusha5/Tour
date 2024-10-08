@@ -59,7 +59,7 @@ function About() {
                 <img src={icon2} alt="Excellence" className="w-16 h-16" />
               </div>
               <h3 className="text-2xl font-semibold mb-2">Excellence</h3>
-              <p className="text-gray-700">We strive for excellence in every aspect of our services.</p>
+              <p className="text-black">We strive for excellence in every aspect of our services.</p>
             </div>
           {/* Value 3 */}
              <div className="mb-8 md:mb-0">
@@ -67,7 +67,7 @@ function About() {
                 <img src={icon3} alt="Adventure" className="w-16 h-16" />
           </div>
                <h3 className="text-2xl font-semibold mb-2">Adventure</h3>
-             <p className="text-gray-700">We believe in creating unforgettable adventures that connect travelers with the beauty of Ethiopia.</p>
+             <p className="text-black">We believe in creating unforgettable adventures that connect travelers with the beauty of Ethiopia.</p>
              </div>
  
           </div>

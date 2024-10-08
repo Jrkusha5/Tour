@@ -28,28 +28,30 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div>
-            <Link to="/">
-              <img src="/logo.png" alt="Logo" className="h-12 md:h-18 lg:h-23" />
-            </Link>
-          </div>
+      <Link to="/">
+        <img src="/logo.png" alt="Logo" className="h-12 w-32 md:h-18 md:w-48" /> 
+       </Link>
+        </div>
 
-          {/* Desktop Menu */}
-          <div className="space-x-8 hidden md:flex items-center text-xl text-black">
-            {menuItems.map((item, index) => (
-              <Link
-                key={index}
-                to={item.to}
-                onClick={() => handleMenuClick(item.name)}
-                className={`text-black block px-2 hover:bg-primary rounded-sm hover:underline underline-offset-4 transition-all duration-300 ${
-                  activeItem === item.name ? "bg-primary text-black underline-offset-4" : ""
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
-            {/* You can add more items like "Request a Quote" below */}
-            {/* <Link to="/contact" className="border px-4 py-2 border-black hover:bg-primary hover:border-primary rounded-md transition-all duration-300">Request a Quote</Link> */}
-          </div>
+
+         {/* Desktop Menu */}
+<div className="w-full hidden md:flex justify-center">
+  <div className="space-x-8 flex items-center text-2xl font-bold text-black">
+    {menuItems.map((item, index) => (
+      <Link
+        key={index}
+        to={item.to}
+        onClick={() => handleMenuClick(item.name)}
+        className={`text-black block px-2 hover:bg-primary rounded-sm hover:underline underline-offset-4 transition-all duration-300 ${
+          activeItem === item.name ? "bg-primary text-black underline-offset-4" : ""
+        }`}
+      >
+        {item.name}
+      </Link>
+    ))}
+  </div>
+</div>
+
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
